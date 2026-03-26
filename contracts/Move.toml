@@ -1,0 +1,12 @@
+[package]
+name = "NFTFlip"
+version = "0.0.1"
+edition = "2024.beta"
+
+[addresses]
+nft_flip = "0x0"
+one = "0x2"
+
+[dependencies]
+One = { local = "../../onechain/crates/sui-framework/packages/one-framework" }
+MoveStdlib = { local = "../../onechain/crates/sui-framework/packages/move-stdlib" }
